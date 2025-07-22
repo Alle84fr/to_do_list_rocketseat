@@ -2,6 +2,7 @@ package br.com.afr8799.to_do_list.task;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.List;
 import java.util.UUID;
 
 import org.apache.catalina.connector.Response;
@@ -17,6 +18,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
 
 
 
@@ -47,5 +51,18 @@ public class TaskController {
 
         var task = this.taskRepository.save(taskModel);
         return ResponseEntity.status(HttpStatus.OK).body(task);
+    }
+
+    
+    public String getMethodName(@RequestParam String param) {
+        return new String();
+    }
+    
+    @GetMapping("/")
+    public List<TaskModel> list(HttpServletRequest request) {
+
+        var idUser = request.getAttribute("idUser");
+        var tasks = this.taskRepository.findByIdUser((UUID) idUser);
+        return tasks;
     }
 }
