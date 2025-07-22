@@ -9,3 +9,9 @@ public class UserModel {
     private String password;
 
 }
+
+
+// para acessar o banco de dados
+//localhost:8080/h2-console
+
+
