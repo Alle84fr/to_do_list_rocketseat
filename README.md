@@ -28,7 +28,7 @@ API de gerenciamento de tarefas (To do list) com Java e Spring Boot.
 ## ⁑ Tecnologias
 <br>
 
-⁕ Java&nbsp;&nbsp;&nbsp;&nbsp;⁕ Spring Boot&nbsp;&nbsp;&nbsp;&nbsp;⁕ ApiDog&nbsp;&nbsp;&nbsp;&nbsp;⁕ Maven&nbsp;&nbsp;&nbsp;&nbsp;⁕ Render&nbsp;&nbsp;&nbsp;&nbsp;⁕ Bcrypt
+⁕ Java&nbsp;&nbsp;&nbsp;&nbsp;⁕ Spring Boot&nbsp;&nbsp;&nbsp;&nbsp;⁕ ApiDog&nbsp;&nbsp;&nbsp;&nbsp;⁕ Maven&nbsp;&nbsp;&nbsp;&nbsp;⁕ Render&nbsp;&nbsp;&nbsp;&nbsp;⁕ Bcrypt&nbsp;&nbsp;&nbsp;&nbsp;⁕ Docker
 <br>
 <br>
 
